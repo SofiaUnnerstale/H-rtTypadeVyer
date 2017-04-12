@@ -1,0 +1,18 @@
+﻿@using GrupparbeteHårtTypadeVyer2.Models
+@model List<Person>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> </title>
+</head>
+<body>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li> @item.Name </li>
+            <li> @item.Age </li>
+        }
+    </ul>
+</body>
+</html>
